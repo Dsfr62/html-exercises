@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>SpaceX</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                |
+                <a href="spaceships.html">The spaceships</a>
+                |
+                <a href="contact.html">Hire Us</a>
+            </nav>
+            <hr>
+        </header>
+
+            <article>
+                <h3>Hire Us Now</h3>
+                <p>Leave a message to request one of our services and we will get back you as soon as possible.</p>
+                <br>
+                <div>
+                    <form>
+                        <label for="name">
+                            Name:
+                            <input type="text" id="name">
+                        </label>
+                        -
+                        <label for="email">
+                            Email:
+                            <input type="email" id="email">
+                        </label>
+                        <br><br>
+                        <label for="spaceship">
+                            Spaceship:
+                            <select name="spaceship" id="spaceship">
+                                <option value="falcon9">Falcon 9</option>
+                                <option value="falconh">Falcon Heavy</option>
+                            </select>
+                        </label>
+                        -
+                        <label for="service">
+                            Type of service:
+                            <input type="search" name="service" id="service" list="services">
+                            <datalist id="services">
+                                <option value="service 1"></option>
+                                <option value="service 2"></option>
+                                <option value="service 3"></option>
+                                <option value="service 4"></option>
+                            </datalist>
+                        </label>
+                        <br><br>
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+            </article>
+    </body>
+</html>

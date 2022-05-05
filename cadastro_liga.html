@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cadastro liga dos astronautas</title>
+    </head>
+
+    <body>
+        <h2>Cadastro da liga dos astronautas</h2>
+        <form action="">
+            <div>
+            <label for="n">Nome:</label>
+            <input type="text" id="n" name="Nome">
+            </div>
+            
+            <br>
+
+            <div>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="email">
+                    <span>
+                        -
+                        <label for="pass">Senha:</label>
+                        <input type="password" id="pass" name="password">
+                    </span>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="birth">Data de nascimento:</label>
+                <input type="date" id="birth" name="nascimento">
+                <span>
+                    -
+                    <label for="pic">Foto:</label>
+                    <input type="file" id="pic" name="foto">
+                </span>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="pais">Nacionalidade:</label>
+                <select id="pais" name="pais">
+                    <option value="brasileiro">Brasileiro</option>
+                    <option value="russo">Russo</option>
+                    <option value="americano">Americano</option>
+                </select>
+                <span>
+                    -
+                    <label for="gender">Gênero:</label>
+                    F
+                    <input type="radio" id="gender" name="gender">
+                    M
+                    <input type="radio" id="gender" name="gender">
+                </span>
+            </div>
+            <br>
+            <div>
+                Suas principais qualidades:
+                <br>
+                <label for="inteligencia">Inteligência</label>
+                <input type="checkbox" id="inteligencia" name="inteligencia">
+                <span>
+                    |
+                    <label for="resiliencia">Resiliência</label>
+                    <input type="checkbox" id="resiliencia" name="resiliencia">
+                    |
+                    <label for="forca">Preparo físico</label>
+                    <input type="checkbox" id="forca" name="forca">
+                    |
+                    <label for="educacao">Educação</label>
+                    <input type="checkbox" id="educacao" name="educacao">
+                    |
+                </span>
+            </div>
+            <br>
+            <textarea id="why" placeholder="Por que você gostaria de ser um astronauta?" rows="10" cols="50"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="criar">
+        </form>
+    </body>
+</html>
